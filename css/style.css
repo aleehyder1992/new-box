@@ -1,0 +1,287 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.common-section {
+  margin: 50px 0 50px 0;
+  padding: 25px 0 25px 0;
+  justify-content: center;
+}
+
+.navbar-brand {
+  font-size: 28px;
+  color: #2c4aaa;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.navbar-nav li a {
+  font-weight: bold;
+  color: black;
+}
+
+.navbar-nav li a:hover {
+  color: #2c4aaa;
+}
+
+.hero {
+  position: relative;
+  height: 100vh;
+  background: url("https://images.ctfassets.net/wdjnw2prxlw8/6HRSjw4NJnvoQEKuDF9BsM/25bd19e9dfbfa9be0137096f74c454fa/glass_buildings_view_from_street_to_sky.jpg")
+    no-repeat center center/cover;
+}
+.text-slider {
+  position: absolute;
+  font-weight: bold;
+  bottom: 20px;
+  right: 20px;
+  color: white;
+  font-size: 1.5rem;
+  background: #2c4aaa;
+  padding: 70px;
+  border-radius: 5px;
+  transition: all 0.8s ease;
+}
+
+.hero-header {
+  padding: 40px;
+  background-color: #7e7979cc;
+  text-align: center;
+  margin: 0 0 0 160px;
+}
+
+.rep-card {
+  padding: 0 0 0 20px;
+  margin: 0 96px 0 65px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.rep-card i {
+  color: orange;
+  font-size: 50px;
+}
+
+.about-us-card {
+  padding: 60px 40px 120px 60px;
+  margin: 60px 0 285px -100px;
+  background-color: #2c4aaa;
+  color: white;
+}
+
+.services {
+  background-color: #f6f8f7;
+  text-align: center;
+}
+
+.service-card {
+  border: 1px solid #2c4aaa;
+  border-radius: 15px;
+  padding: 15px;
+  text-align: center;
+  margin: 0 65px 0 45px;
+}
+
+.service-card img {
+  width: 80px;
+}
+
+.contact-us-head {
+  margin: 50px 0 0 240px;
+  color: #2c4aaa;
+  font-size: 60px;
+}
+
+.contact-us-text {
+  margin: 20px 0 0 240px;
+}
+
+.contact-btn {
+  margin: 20px 0 0 240px;
+  background-color: #2c4aaa;
+  border: 1px solid transparent;
+}
+
+.contact-us-card {
+  border: 1px solid #2c4aaa;
+  box-shadow: 3px 3px 2px gray;
+  padding: 30px;
+  margin: 0 150px 0 235px;
+}
+
+.contact-us-card h1 {
+  text-align: left;
+  font-weight: bolder;
+  color: black;
+}
+
+.contact-us-card p {
+  color: gray;
+  border-left: 5px solid orange;
+  padding: 0 0 0 15px;
+}
+
+.contact-us-card-1 {
+  margin: 0 0 0 385px;
+}
+.contact-us-card-2 {
+  margin: 0 280px 0 110px;
+}
+.contact-us-card-3 {
+  margin: 0 0 0 385px;
+}
+.contact-us-card-4 {
+  margin: 0 280px 0 110px;
+}
+
+.contact-us-card-1 img {
+  width: 100px;
+  margin: -105px 0 -15px 120px;
+}
+
+.contact-us-card-3 img {
+  width: 100px;
+  margin: -105px 0 -15px 120px;
+}
+
+.contact-us-card-2 img {
+  width: 100px;
+  margin: -100px 0 0 110px;
+}
+
+.contact-us-card-4 img {
+  width: 100px;
+  margin: -100px 0 0 110px;
+}
+
+.consultation {
+  background-image: url("https://images.unsplash.com/photo-1521247205284-f4f3c95fdb5a?q=80&w=1912&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  padding: 50px 0 50px 0;
+}
+
+.cons-btn {
+  background-color: transparent;
+  border: 1px solid white;
+  margin: 10px 0 0 200px;
+}
+
+.card-body {
+  background-color: #2c4aaa;
+  color: white;
+}
+
+.card {
+  border: 2px solid #2c4aaa;
+}
+
+.card-body p {
+  font-size: 10px;
+}
+
+.product-card-2 {
+  margin: 0 0 0 50px;
+}
+
+.product {
+  margin: 25px 0 0 270px;
+}
+
+.products {
+  margin-bottom: 50px;
+}
+
+.contact-form {
+  background-color: #f6f8f7;
+  text-align: center;
+}
+
+.form-btn {
+  background-color: #2c4aaa;
+  border: 2px solid transparent;
+  padding: 10px 50px 10px 50px;
+}
+
+.text-footer {
+  color: #2c4aaa;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.text-foo {
+  margin: 5px 0 0 30px;
+}
+
+.footer-btn {
+  border: 1px solid transparent;
+  margin-left: 20px;
+}
+
+.footer-social {
+  font-size: 25px;
+  color: #2c4aaa;
+}
+
+@media only screen and (max-width: 768px) {
+  .hero-header {
+    margin: 0 0 0 100px;
+  }
+
+  .text-slider {
+    margin: 0 0 0 105px;
+    padding: 25px;
+  }
+
+  .rep-card {
+    text-align: center;
+    margin: 10px 0 0 0;
+  }
+
+  .about-us-card {
+    margin: 0;
+  }
+
+  .service-card {
+    margin: 0;
+  }
+
+  .contact-us-head {
+    margin: 0;
+    text-align: center;
+  }
+
+  .contact-us-text {
+    text-align: center;
+    margin: 0;
+  }
+
+  .contact-btn {
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact-us-card-1,
+  .contact-us-card-2,
+  .contact-us-card-3,
+  .contact-us-card-4 {
+    margin: 0;
+  }
+
+  .consultation {
+    margin: 0;
+    text-align: center;
+  }
+
+  .cons-btn {
+    margin: 0;
+  }
+
+  .product {
+    margin: 10px 0 0 0;
+  }
+}
